@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anon</title>
+    <link rel="icon"
+        href="data:image/png;base64,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">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: aliceblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 350px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .form-box h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .input-group {
+            margin-bottom: 15px;
+        }
+
+        .input-group input {
+            width: 93%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            background-color: #2575fc;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .aaa {
+            color: aliceblue;
+            text-decoration: none;
+        }
+
+        button:hover {
+            background-color: #1a5edb;
+        }
+
+        .toggle-text {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .toggle-text a {
+            color: #2575fc;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h2 id="formTitle">Log in</h2>
+            <form id="authForm">
+                <div class="input-group">
+                    <input type="text" id="username" placeholder="Username" required />
+                </div>
+                <div class="input-group">
+                    <input type="password" id="password" placeholder="Password" required />
+                </div>
+                <div class="input-group" id="confirmPasswordGroup" style="display: none;">
+                    <input type="password" id="confirmPassword" placeholder="Confirm Password" />
+                </div>
+                <button type="submit" id="submitBtn"><a href="index.html" class="aaa">Login</a></button>
+                <p class="toggle-text">
+                    Don't have an account?
+                    <a href="#" id="toggleLink">Register here</a>
+                </p>
+            </form>
+        </div>
+    </div>
+    <script>
+        const formTitle = document.getElementById("formTitle");
+        const toggleLink = document.getElementById("toggleLink");
+        const submitBtn = document.getElementById("submitBtn");
+        const confirmPasswordGroup = document.getElementById("confirmPasswordGroup");
+        let isLogin = true;
+
+        toggleLink.addEventListener("click", function (e) {
+            e.preventDefault();
+            isLogin = !isLogin;
+            formTitle.textContent = isLogin ? "Login" : "Register";
+            submitBtn.textContent = isLogin ? "Login" : "Register";
+            toggleLink.textContent = isLogin
+                ? "Register here"
+                : "Already have an account? Login";
+            confirmPasswordGroup.style.display = isLogin ? "none" : "block";
+        });
+
+        document.getElementById("authForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+            const username = document.getElementById("username").value.trim();
+            const password = document.getElementById("password").value.trim();
+            const confirmPassword = document.getElementById("confirmPassword").value.trim();
+
+            if (!isLogin && password !== confirmPassword) {
+                alert("Passwords do not match!");
+                return;
+            }
+
+            alert(`${isLogin ? "Logged in" : "Registered"} successfully as ${username}`);
+            // Add logic to store or check credentials (optional, backend required)
+        });
+
+    </script>
+</body>
+
+</html>
